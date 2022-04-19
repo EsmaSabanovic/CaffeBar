@@ -1,0 +1,376 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,600;1,200&display=swap');
+
+*{box-sizing: border-box;
+    margin: 0;
+    padding:0 ;
+    font-family: 'Poppins', sans-serif;}
+  
+
+  body{
+     background-image: url(pozadina2.jpg);
+      color: white;
+  }
+  #ShishaSmoke {
+    position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height:150px;
+   object-fit: cover;
+   opacity: 0.5;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    }
+  
+  div.bar{
+    width: 100%;
+    height: 150px;         
+background-color: black;
+align-content: center;
+font-family: 'Poppins', sans-serif;
+font-size: 17px;
+
+z-index:100;
+  }
+  .navtab{
+  align-content: center;
+      font-size: 17px;
+      z-index: 100;
+    
+  
+  }
+  a:link{
+      background-color: transparent;
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+    }
+    
+    a:visited
+    {color: white;
+    text-decoration: none;}
+    
+    a:hover{
+      color: rgb(99, 98, 98);
+      text-decoration: none;
+    }
+    
+    a:active{
+      color:white;
+    } 
+  
+   
+  
+  .lowerpart{
+      background-image:url("drugimrwood - Copy.png");
+      display: flex;
+      height: fit-content;
+      width: 100%;
+      font-size:13px;
+      height: fit-content;
+      
+  }
+  .card{
+      align-items: center;
+      transition: transform .2s; 
+  }
+
+  .card:hover{
+    transform: scale(2);
+    z-index: 10;
+  }
+
+  .big video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  }
+
+  .card-title{
+    display: block;
+    margin-left: auto;
+    margin-right: auto  
+  }
+
+  .im{
+    background-image: url(kum.jpg);
+  }
+  
+  .nav li {
+    display: flex;
+    align-items: flex-end
+    ;
+  }
+  
+  .nav a {
+    padding: 10px;
+   
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    background-color: #000000;
+  }
+  .nav a:visited{
+  color: whitesmoke;
+  }
+  .nav a:hover{
+  color: gray;
+    text-decoration:none;
+  }
+ 
+  .mainphoto h6{
+    z-index: 10;
+    position: relative;
+    font-family: 'Poppins', sans-serif;}
+  .mainphoto a{
+  padding:5px 15px;
+  text-decoration: none;
+  color: white;
+  margin-top: 10px;
+  letter-spacing: 2px;
+  align-items: center ;
+  font-size: smaller;
+  }
+  
+  .card-group{
+    height: fit-content;
+  }
+  .c{
+    margin-left: 4cm;
+    margin-right: 4cm;
+    
+  }
+  .sve{
+    background-image: url(drugimrwood.png);
+    top: 0;
+    left: 0;
+    margin-right: 0;
+    bottom: 0;
+    width: 100%;
+    height:100%;
+background-size: cover; 
+  }
+  #dugme {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px;
+    z-index: 99; 
+    border: none;
+    background-color: black; 
+    color: white; 
+    cursor: pointer; 
+    padding: 10px;
+    font-size: 20px; 
+     font-family: 'Poppins', sans-serif;
+  }
+  
+  #dugme:hover {
+    background-color: rgb(255, 255, 255); 
+    color: black;
+    font-family: 'Poppins', sans-serif;
+  }
+ 
+.slide-viewer {
+     position: relative; 
+     overflow: hidden; 
+     height: 300px;
+    margin-top: 5cm;
+  text-align: center;
+justify-content: center;} 
+  .slide-group { 
+    width: 100% ; 
+    height: 100% ;
+     position: relative;} 
+  .slide { 
+    width: 100%;
+     height: 100% ; 
+     display: none; 
+     position: absolute;} 
+  .slide:first-child 
+  {display: block;}
+  .slide-buttons{
+    text-align: center;
+    justify-content: center;
+    
+  }
+  .slide.btn{
+    color: aquamarine;
+  }
+
+
+
+ * 
+ .broj{display: none}
+ img {vertical-align: middle;}
+ 
+ 
+ .kontejner {
+   position: relative;
+   margin: auto;
+
+   margin-top: 1cm;
+   margin-bottom:1cm;
+   background-color: black;
+   height:485px;
+   width: 850px;
+   align-content: center;
+   padding: 5px 2px;
+   
+ }
+ .kontejn {
+  position: relative;
+  margin: auto;
+
+  margin-top: 1cm;
+  margin-bottom:1cm;
+  background-color: black;
+  height:300px;
+  width: 850px;
+  align-content: center;
+ 
+  
+}
+ 
+ .iduci{
+   cursor: pointer;
+   position: absolute;
+   left: 80%;
+   top: 50%;
+   color: rgb(0, 0, 0);
+   font-weight: bold;
+   font-size: 50px;
+   text-decoration: none;
+  
+ }
+ .prethodni{
+  cursor: pointer;
+  position: absolute;
+  right: 80%;
+  top: 50%;
+  color:  rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 50px;
+  text-decoration: none;
+ 
+}
+ .iduci:hover, .prethodni:hover {
+   color: white;
+   font-family: 'Poppins', sans-serif;
+ }
+ /*
+ .tackica {
+   cursor: pointer;
+   height: 15px;
+   width: 15px;
+   margin: 0 2px;
+   background-color: #bbb;
+   border-radius: 50%;
+   display: inline-block;
+   transition: background-color 0.6s ease;
+ }
+*/
+.recenzije{
+  width: 100%;
+  height: 600px;
+  background-color: black;
+  justify-content: center;
+  text-align: center;
+}
+ .header3{
+  width: 100%;
+  text-align: center; 
+    cursor: pointer; 
+ height: 230px; 
+justify-content: center;
+padding: 70px 0;
+background-color: black;
+
+}
+ .kolekcija{
+     width: 100%;
+     overflow: hidden; 
+      display: none;
+  }
+
+ @media only screen and (max-width: 300px) {
+   .iduci, .prethodni{font-size: 11px}
+ }
+  @media only screen and (max-width:992px){
+
+    .bar img{
+        height: 70px;
+    }
+    .lowerpart{
+      flex-direction: column;
+      justify-content: center; 
+      height: auto;
+      width: fit-content; 
+      display: flex;
+      justify-content: center;
+         }
+      .lowerpart iframe{
+        width: fit-content;
+      }
+      
+      .bar img {
+        padding-left: 0px;
+        margin: 0;
+        width: 35%;
+        height: 100px;
+      }
+      
+      .big video{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        
+      }
+      ul {
+        display: none;
+        flex-direction:column;
+      }
+      ul li {
+        font-size: 11px;
+      
+      }
+      .bar{
+        flex-direction: row;
+      }
+      #ShishaSmoke {
+        position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height:fit-content;
+       object-fit: cover;
+       opacity: 0.5;
+      }
+      div.bar{
+        position:relative;
+        
+        z-index:100;
+      }
+
+.kontejner{
+  height: auto;
+  width: auto;
+  margin-top:5cm;
+}
+
+
+    }
